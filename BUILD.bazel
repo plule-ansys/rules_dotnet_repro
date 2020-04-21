@@ -12,7 +12,6 @@ net_xunit_test(
     testlauncher = "@xunit.runner.console//:net462_net_tool",
     deps = [
         "@io_bazel_rules_dotnet//dotnet/stdlib.net/net462:system.runtime.dll",
-        "@io_bazel_rules_dotnet//dotnet/stdlib.net/net462:system.core.dll",
         "@xunit.assert//:net462_net",
         "@xunit.extensibility.core//:net462_net",
         "@xunit.extensibility.execution//:net462_net",
