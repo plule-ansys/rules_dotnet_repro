@@ -1,0 +1,6 @@
+﻿{
+  "externals": {},
+  "dependencies": {
+    "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+  }
+}
